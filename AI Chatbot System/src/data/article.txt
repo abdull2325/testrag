@@ -1,0 +1,28 @@
+Internet Protocol television
+
+Internet Protocol television (IPTV) is a system through which television services are delivered using the Internet protocol suite over a packet-switched network such as a LAN or the Internet, instead of being delivered through traditional terrestrial, satellite signal, and cable television formats.
+
+Unlike downloaded media, IPTV offers the ability to stream the source media continuously. As a result, a client media player can begin playing the content (such as a TV channel) almost immediately. This is known as streaming media.
+
+IPTV services may be classified into three main groups:
+- Live television, with or without interactivity related to the current TV show
+- Time-shifted programming: catch-up TV (replays a TV show that was broadcast hours or days ago), start-over TV (replays the current TV show from its beginning)
+- Video on demand (VOD): browse a catalog of videos, not related to TV programming
+
+IPTV is defined as multimedia services such as television/video/audio/text/graphics/data delivered over IP based networks managed to provide the required level of quality of service and experience, security, interactivity and reliability.
+
+An IPTV service, typically distributed by a service provider, includes live TV programs or on-demand video content. An IPTV system may be used to provide video content over a private network in an enterprise, although such implementations are far less common than subscriber-based models due to the complexity, network latency, and scaling issues.
+
+The technology behind IPTV is similar to that used by VoIP (Voice over IP), which has helped the spread of IPTV. Because IPTV uses a packet-based delivery system, it can be easily combined with other IP-based services such as VoIP and high-speed Internet access.
+
+IPTV requires a set-top box or other customer premises equipment. The service provider's content is delivered to the customer through the Internet. An IPTV head-end system receives, processes and delivers multiple streams of content, and provides an interface to customer premises equipment.
+
+Standards are important for IPTV because it needs to work with different types of devices and networks. Several standards bodies are involved in developing IPTV standards, including the European Telecommunications Standards Institute and the International Telecommunication Union.
+
+The quality of IPTV service can be affected by the availability and quality of the broadband connection used. If the network cannot provide sufficient bandwidth, the user may experience buffering or loss of quality. Because of this, many IPTV providers now offer adaptive streaming, which adjusts the quality of the video based on the available bandwidth.
+
+IPTV has advantages over traditional TV distribution. It allows for a more customized viewing experience, as users can choose what they want to watch and when. It also makes it easier for service providers to offer additional services, such as interactive advertising, video on demand, and personal video recording.
+
+However, IPTV also has some challenges. It requires a reliable, high-speed Internet connection. There may be issues with content rights and licensing, especially for live sports and other premium content. Security and content protection are also concerns, as IPTV streams can potentially be intercepted or pirated.
+
+The future of IPTV looks promising, with growing demand for on-demand content and personalized viewing experiences. As Internet speeds continue to increase and streaming technology improves, IPTV is expected to become an increasingly popular way to consume television content.
