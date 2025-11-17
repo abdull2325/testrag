@@ -2,7 +2,7 @@
 
 A professional full-stack AI chatbot system built with FastAPI (backend), React + TypeScript (frontend), featuring RAG (Retrieval Augmented Generation) using OpenAI embeddings and GPT, admin panel, and human takeover logic.
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 testrag/
@@ -34,33 +34,33 @@ testrag/
 └── README.md                  # This file
 ```
 
-## ✨ Features
+##  Features
 
 ### 🤖 RAG-Powered Chat
-- ✅ Vector similarity search using OpenAI embeddings
-- ✅ Context-aware responses using GPT-3.5-turbo
-- ✅ Romanian-friendly tone
-- ✅ Conversation history storage (SQLite)
-- ✅ Real-time chat interface
+-  Vector similarity search using OpenAI embeddings
+-  Context-aware responses using GPT-3.5-turbo
+-  Romanian-friendly tone
+-  Conversation history storage (SQLite)
+-  Real-time chat interface
 
-### 🛡️ Human Escalation
-- ✅ Automatic detection of keywords ("refund", "money back")
-- ✅ Stops AI and notifies user: "AI a oprit. Un coleg va prelua conversația."
+###  Human Escalation
+-  Automatic detection of keywords ("refund", "money back")
+-  Stops AI and notifies user: "AI a oprit. Un coleg va prelua conversația."
 
-### ⚙️ Admin Panel
-- ✅ Configure welcome message
-- ✅ Set fallback message for low-similarity queries
-- ✅ Customize tone instructions
-- ✅ Real-time settings updates
-- ✅ Settings persistence (JSON + localStorage)
+###  Admin Panel
+-  Configure welcome message
+-  Set fallback message for low-similarity queries
+-  Customize tone instructions
+-  Real-time settings updates
+-  Settings persistence (JSON + localStorage)
 
-### 🎨 Beautiful UI
-- ✅ Modern gradient design with animations
-- ✅ Responsive chat widget
-- ✅ Admin dashboard with authentication
-- ✅ Real-time message display
+## UI
+-  Modern gradient design with animations
+-  Responsive chat widget
+-  Admin dashboard with authentication
+-  Real-time message display
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -108,7 +108,7 @@ npm run dev
 
 Frontend will run at: **http://localhost:3000**
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Chat Endpoints
 
@@ -189,7 +189,7 @@ Update admin settings.
 }
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Backend Environment Variables
 
@@ -215,7 +215,7 @@ Edit `AI Chatbot System/.env`:
 VITE_API_URL=http://localhost:8000
 ```
 
-## 📚 Knowledge Base
+##  Knowledge Base
 
 The knowledge base article is located at `/data/article.txt` and contains information about IPTV (Internet Protocol Television) from Simple Wikipedia.
 
@@ -224,7 +224,7 @@ To update the knowledge base:
 2. Restart the backend server
 3. The RAG system will automatically re-index the content
 
-## 🧪 Testing
+##  Testing
 
 ### Test Backend Endpoints
 
@@ -261,40 +261,40 @@ curl http://localhost:8000/admin/settings
    - Update settings
    - Return to chat and see changes
 
-## 🎯 Key Features Demonstrated
+##  Key Features Demonstrated
 
 ### RAG Implementation
-- ✅ Text chunking with overlap
-- ✅ OpenAI embeddings (text-embedding-3-small)
-- ✅ Cosine similarity search
-- ✅ Context injection into GPT prompts
-- ✅ Fallback for low-similarity queries
+-  Text chunking with overlap
+-  OpenAI embeddings (text-embedding-3-small)
+-  Cosine similarity search
+-  Context injection into GPT prompts
+-  Fallback for low-similarity queries
 
 ### Human Takeover Logic
-- ✅ Keyword detection ("refund", "money back")
-- ✅ Stops AI processing
-- ✅ Returns `needs_human: true`
-- ✅ Frontend displays escalation message
+-  Keyword detection ("refund", "money back")
+-  Stops AI processing
+-  Returns `needs_human: true`
+-  Frontend displays escalation message
 
 ### Admin Panel
-- ✅ Settings CRUD operations
-- ✅ Real-time updates
-- ✅ Persistent storage (JSON + localStorage)
-- ✅ Authentication system
+-  Settings CRUD operations
+-  Real-time updates
+-  Persistent storage (JSON + localStorage)
+-  Authentication system
 
 ### Conversation Management
-- ✅ SQLite storage
-- ✅ Message history retrieval
-- ✅ Conversation ID tracking
+-  SQLite storage
+-  Message history retrieval
+-  Conversation ID tracking
 
-## 🔐 Security Notes
+##  Security Notes
 
-- ⚠️ **Never commit `.env` files to Git**
-- ⚠️ The API key is in `.env` for development only
-- ⚠️ In production, use environment variables or secrets management
-- ⚠️ The admin login is simplified for demo purposes
+-  **Never commit `.env` files to Git**
+-  The API key is in `.env` for development only
+-  In production, use environment variables or secrets management
+-  The admin login is simplified for demo purposes
 
-## 📝 Development Notes
+##  Development Notes
 
 ### Backend
 - FastAPI with auto-reload enabled
@@ -308,7 +308,7 @@ curl http://localhost:8000/admin/settings
 - Tailwind CSS v3 for styling
 - shadcn/ui components
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend won't start
 - Check Python version: `python3 --version` (need 3.9+)
@@ -330,19 +330,13 @@ curl http://localhost:8000/admin/settings
 - Check `VITE_API_URL` in frontend `.env`
 - Verify CORS middleware is enabled in `backend/main.py`
 
-## 📊 API Documentation
+##  API Documentation
 
 When backend is running, visit:
 - **Swagger UI:** http://localhost:8000/docs
 - **ReDoc:** http://localhost:8000/redoc
 
-## 🎥 Demo Video
 
-Create a 1-2 minute demo video showing:
-1. Chat functionality with IPTV questions
-2. Human escalation with "refund" keyword
-3. Admin panel settings update
-4. Settings reflection in chat
 
 ## ⚡ Performance
 
@@ -351,7 +345,7 @@ Create a 1-2 minute demo video showing:
 - Chat response time: ~1-3 seconds (depends on OpenAI API)
 - Frontend hot reload: <200ms
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - [ ] User authentication
 - [ ] Multiple knowledge bases
@@ -362,11 +356,11 @@ Create a 1-2 minute demo video showing:
 - [ ] Docker containerization
 - [ ] Production deployment guide
 
-## 📄 License
+##  License
 
 This is a test project for evaluation purposes.
 
-## 🤝 Support
+##  Support
 
 For issues or questions about this implementation, please refer to:
 - Backend logs: Check terminal running uvicorn
